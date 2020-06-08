@@ -1,0 +1,100 @@
+h4 span:nth-child(1){
+    background-color: #ff999a;
+    color: #ffffff;
+}
+
+h3 span>span:nth-child(1), h3 span>span:nth-child(2){
+    display: block;
+}
+
+h5 span:nth-child(1){
+    color: #fe6700;
+}
+
+h3{
+    font-size: 22px;
+}
+
+h5{
+    color: #336667;
+}
+
+section:nth-child(3){
+    background-image:linear-gradient(to bottom, #ffffff 0%, #ffffff 15%, #336667 15%, #336667 85%) ;
+}
+
+@media screen and (max-width: 768px){
+    section:nth-child(3){
+        background-image:linear-gradient(to bottom, #336667 0%, #336667 100%);
+    }
+
+    h3 span>span:nth-child(1), h3 span>span:nth-child(2){
+        display: inline
+    }
+
+    h1{
+        font-size: 28px;
+    }
+}
+
+::selection{
+    background-color: #fe6700;
+    color: #000;
+}
+
+.height-70{
+    min-height: 70vh;
+}
+
+.color-pinkish{
+    color: #ff999a;
+}
+
+.color-deep-pinkish{
+    color: #ce8e8e;
+}
+
+.color-orange{
+    color: #fe6700;
+}
+
+.color-green{
+    color: #336667;
+}
+
+.bg-pinkish{
+    background-color: #ff999a;
+}
+
+.title-name{
+    font-size: 20px;
+    color: #ce8e8e;
+}
+
+.title-position{
+    font-size: 15px;
+    color: #fff;
+}
+
+.h3{
+    font-size: 20px;
+    width: 100% !important;
+}
+
+.fa-facebook{
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #ffffff;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.font-small{
+    font-size: 20px;
+}
